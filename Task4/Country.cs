@@ -4,6 +4,15 @@ public class Country
     string _capital;
     int _population;
     string _officialLanguage;
+
+    public void SetCountryName(string country)
+    {
+        _name = country;
+    }
+        public string GetCountryName()
+    {
+        return _name;
+    }
     public void SetCapital(string capital)
     {
         _capital = capital;
